@@ -1,4 +1,4 @@
-terraform {
+terraform { 
   backend "azurerm" {
     resource_group_name  = "demo-resources"
     storage_account_name = "harshastorage11"
@@ -6,3 +6,4 @@ terraform {
     key                  = "prod.terraform.tfstate"
   }
 }
+//harsha edit
